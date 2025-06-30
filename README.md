@@ -56,14 +56,15 @@ The project includes:
 
 ---
 ## Import Libraries and data cleaning
+```Python
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
 Load Dataset
-df = pd.read_csv("personality_datasert.csv")  # Change path if needed
+df = pd.read_csv("")
 
-Inspect Dataset
+Inspect Datasetv
 df.head()
 df.tail()
 df.info()
