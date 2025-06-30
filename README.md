@@ -55,29 +55,29 @@ The project includes:
 - Stage fear and post-social fatigue are more common among introverts
 
 ---
-# 1. Import Libraries
+### Import Libraries
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# 2. Load Dataset
+### Load Dataset
 df = pd.read_csv("personality_datasert.csv")  # Change path if needed
 
-# 3. Inspect Dataset
+### Inspect Dataset
 df.head()
 df.tail()
 df.info()
 df.describe()
 df.isnull().sum()
 
-# 4. Check Unique Values
+### Check Unique Values
 df['Personality'].unique()
 df['Stage_fear'].unique()
 df['Drained_after_socializing'].unique()
 df['Personality'].value_counts()
 df['Stage_fear'].value_counts()
 
-# 5. Clean Column Values (Whitespace + Capitalization)
+### Clean Column Values (Whitespace + Capitalization)
 df['Personality'] = df['Personality'].astype(str).str.strip().str.title()
 df['Stage_fear'] = df['Stage_fear'].astype(str).str.strip().str.title()
 df['Drained_after_socializing'] = df['Drained_after_socializing'].astype(str).str.strip().str.title()
