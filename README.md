@@ -1,6 +1,6 @@
-# 📊 Personality Behavior Analysis: Introverts vs Extroverts (+ Ambiverts)
+# Personality Behavior Analysis: Introverts vs Extroverts (+ Ambiverts)
 
-## 📁 Dataset
+## Dataset
 **Source:** [Kaggle - Extrovert vs Introvert Behavior Data](https://www.kaggle.com/datasets/rakeshkapilavai/extrovert-vs-introvert-behavior-data)  
 **Description:**  
 A behavioral survey dataset of ~2,900 participants with traits such as:
@@ -14,7 +14,7 @@ A behavioral survey dataset of ~2,900 participants with traits such as:
 - Personality type: `Introvert` or `Extrovert`
 
 
-## 🎯 Project Overview
+##  Project Overview
 
 This project explores how **introverts** and **extroverts** differ in behavior across various real-world and online settings. It also defines and identifies a third group—**ambiverts**—based on behavioral balance.
 
@@ -27,7 +27,7 @@ The project includes:
 - A clean **GitHub repository** with code and visuals
 
 
-## ✅ Objectives
+## Objectives
 
 - Clean and explore a real-world personality dataset  
 - Compare introverts vs extroverts across behavioral metrics  
@@ -37,7 +37,7 @@ The project includes:
 
 ---
 
-## 🧰 Tools Used
+## Tools Used
 
 - `pandas` – data manipulation  
 - `seaborn` & `matplotlib` – visualization  
@@ -47,7 +47,7 @@ The project includes:
 
 ---
 
-## 📊 Key Insights
+## Key Insights
 
 - **Introverts** spend more time alone and attend fewer events  
 - **Extroverts** post more frequently and have larger social circles  
