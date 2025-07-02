@@ -62,7 +62,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 Load Dataset
-df = pd.read_csv("")
+df = pd.read_csv("/Users/vernesapodrimaj/Downloads/archive/personality_datasert.csv")
 
 Inspect Datasetv
 df.head()
