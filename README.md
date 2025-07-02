@@ -64,7 +64,7 @@ import seaborn as sns
 Load Dataset
 df = pd.read_csv("/Users/vernesapodrimaj/Downloads/archive/personality_datasert.csv")
 
-Inspect Datasetv
+Inspect Dataset
 df.head()
 df.tail()
 df.info()
