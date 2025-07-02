@@ -89,12 +89,12 @@ df['Going_outside'] = df['Going_outside'].astype(int)
 df['Friends_circle_size'] = df['Friends_circle_size'].round().astype(int)
 df['Post_frequency'] = df['Post_frequency'].round().astype(int)
 
-### Data Visualization
+Data Visualization
 sns.histplot(data=df, x='Time_spent_Alone', bins=12, kde=True)
 plt.title('Distribution of Time Spent Alone')
 plt.show()
 
-### Compare Averages per Personality
+Compare Averages per Personality
 df.groupby('Personality')[[
     'Time_spent_Alone',
     'Friends_circle_size',
@@ -104,7 +104,7 @@ df.groupby('Personality')[[
 ]].mean().round(2)
 
 
-### Countplot
+Countplot
 sns.countplot(data=df, x='Stage_fear', hue='Personality')
 plt.title('Stage Fear by Personality')
 plt.show()
@@ -113,7 +113,7 @@ sns.countplot(data=df, x='Drained_after_socializing', hue='Personality')
 plt.title('Feeling Drained After Socializing by Personality')
 plt.show()
 
-### Define Ambivert Group
+Define Ambivert Group
 df['Ambivert'] = (
     (df['Time_spent_Alone'].between(4, 7)) &
     (df['Social_event_attendance'].between(4, 7)) &
@@ -122,7 +122,7 @@ df['Ambivert'] = (
 
 df['Ambivert'] = df['Ambivert'].map({True: 'Ambivert', False: 'Not Ambivert'})
 
-### View Ambiverts
+View Ambiverts
 df[df['Ambivert'] == 'Ambivert'][[
     'Personality',
     'Time_spent_Alone',
@@ -131,11 +131,11 @@ df[df['Ambivert'] == 'Ambivert'][[
     'Ambivert'
 ]].head()
 
-### Export Cleaned Dataset
+Export Cleaned Dataset
 df.to_csv("personality_cleaned.csv", index=False)
 
 
-## Tableau Dashboard
+Tableau Dashboard
 https://public.tableau.com/views/PersonalityBehaviorAnalysisIntrovertsvsExtroverts/Dashboard1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 
