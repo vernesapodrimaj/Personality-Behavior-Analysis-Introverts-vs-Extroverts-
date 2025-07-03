@@ -23,7 +23,7 @@ The project includes:
 - Data cleaning and analysis in **Python**
 - Behavioral trait comparison across personality types
 - Rule-based classification of **ambiverts**
-- An **interactive dashboard** using **Looker Studio**
+- An **interactive dashboard** using **Tableau**
 - A clean **GitHub repository** with code and visuals
 
 
