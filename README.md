@@ -135,8 +135,8 @@ Export Cleaned Dataset
 df.to_csv("personality_cleaned.csv", index=False)
 ```
 
-Tableau Dashboard
-https://public.tableau.com/views/PersonalityBehaviorAnalysisIntrovertsvsExtroverts/Dashboard1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+[Tableau Dashboard](
+https://public.tableau.com/views/PersonalityBehaviorAnalysisIntrovertsvsExtroverts/Dashboard1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 
 
